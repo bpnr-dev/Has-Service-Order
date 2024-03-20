@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFnAlYsm2ojFR0Xdv7BIYmcW6V1ZtCu7/e/RnUM3SVpIHBx+uGuBYYZhvvvUGX5tMzZZpaxa06DePgwA3elMfA==",
+  "dgSpecHash": "WHOBcceQ8E0UgRLi8zVMcPYEupg9iuQh87J1qCKVvlgB5wYMWZ4Lh57n3IPrE7OQhopCHShRA0JuMgqOwehWNw==",
   "success": true,
-  "projectFilePath": "D:\\BeatrizP_Nathalli\\Nathalli\\DSII\\OsDsII.api\\OsDsII.api.csproj",
+  "projectFilePath": "C:\\Users\\etechas\\Source\\Repos\\Has-Service-Order\\OsDsII.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

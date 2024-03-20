@@ -18,6 +18,8 @@ namespace OsDsII.api.Controllers
 
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
         public async Task<IActionResult> GetAllServiceOrderAsync()
         {
             try
@@ -27,11 +29,13 @@ namespace OsDsII.api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
         public async Task<IActionResult> GetServiceOrderById(int id)
         {
             try
@@ -39,31 +43,33 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _dataContext.ServiceOrders.FirstOrDefaultAsync(s => s.Id == id);
                 if (serviceOrder is null)
                 {
-                    throw new Exception("Service order not found");
+                   return NotFound("Service order not found");
                 }
                 return Ok(serviceOrder);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
         public async Task<IActionResult> CreateServiceOrderAsync(ServiceOrder serviceOrder)
         {
             try
             {
                 if (serviceOrder is null)
                 {
-                    throw new Exception("Service order cannot be null");
+                    return BadRequest("Service order cannot be null");
                 }
 
                 Customer customer = await _dataContext.Customers.FirstOrDefaultAsync(c => serviceOrder.Customer.Id == c.Id);
 
                 if (customer is null)
                 {
-                    throw new Exception("Customer not found");
+                    return NotFound("Customer not found");
                 }
 
                 await _dataContext.ServiceOrders.AddAsync(serviceOrder);
@@ -85,7 +91,7 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _dataContext.ServiceOrders.FirstOrDefaultAsync(s => s.Id == id);
                 if (serviceOrder is null)
                 {
-                    throw new Exception("Service order cannot be null");
+                    return BadRequest("Service order cannot be null");
                 }
 
                 serviceOrder.FinishOS();
@@ -96,7 +102,7 @@ namespace OsDsII.api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
@@ -108,7 +114,7 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _dataContext.ServiceOrders.FirstOrDefaultAsync(s => s.Id == id);
                 if (serviceOrder is null)
                 {
-                    throw new Exception("Service order cannot be null");
+                    return BadRequest("Service order cannot be null");
                 }
 
                 serviceOrder.Cancel();
@@ -119,7 +125,7 @@ namespace OsDsII.api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
     }
