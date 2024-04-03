@@ -5913,11 +5913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\etechas\\Source\\Repos\\Has-Service-Order\\OsDsII.api.csproj",
+      "projectUniqueName": "D:\\BeatrizP_Nathalli\\DS\\Has-Service-Order\\HasServiceOrder.api\\OsDsII.api.csproj",
       "projectName": "OsDsII.api",
-      "projectPath": "C:\\Users\\etechas\\Source\\Repos\\Has-Service-Order\\OsDsII.api.csproj",
+      "projectPath": "D:\\BeatrizP_Nathalli\\DS\\Has-Service-Order\\HasServiceOrder.api\\OsDsII.api.csproj",
       "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\etechas\\Source\\Repos\\Has-Service-Order\\obj\\",
+      "outputPath": "D:\\BeatrizP_Nathalli\\DS\\Has-Service-Order\\HasServiceOrder.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

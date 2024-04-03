@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
+    "",
     "\\Controllers",
     "\\data",
     "\\Migrations",
-    "\\Models"
+    "\\Models",
+    "\\Repository"
   ],
+  "SelectedNode": "\\Repository\\ServiceOrderRepository.cs",
   "PreviewInSolutionExplorer": false
 }
