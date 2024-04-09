@@ -470,3 +470,14 @@ C:\Users\etechas\Source\Repos\Has-Service-Order\obj\Debug\net8.0\scopedcss\bundl
 C:\Users\etechas\Source\Repos\Has-Service-Order\obj\Debug\net8.0\OsDsII.api.csproj.CopyComplete
 C:\Users\etechas\Source\Repos\Has-Service-Order\obj\Debug\net8.0\OsDsII.api.genruntimeconfig.cache
 C:\Users\etechas\Source\Repos\Has-Service-Order\obj\Debug\net8.0\ref\OsDsII.api.dll
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.csproj.AssemblyReference.cache
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.GeneratedMSBuildEditorConfig.editorconfig
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.AssemblyInfoInputs.cache
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.AssemblyInfo.cs
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.csproj.CoreCompileInputs.cache
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.MvcApplicationPartsAssemblyInfo.cs
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.MvcApplicationPartsAssemblyInfo.cache
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.sourcelink.json
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.dll
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\refint\OsDsII.api.dll
+D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.pdb

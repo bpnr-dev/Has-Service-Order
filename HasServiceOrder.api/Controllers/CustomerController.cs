@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OsDsII.api.Data;
@@ -18,7 +19,6 @@ namespace OsDsII.api.Controllers
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<IActionResult> GetAllAsync()
         {
             try
@@ -26,18 +26,15 @@ namespace OsDsII.api.Controllers
                 List<Customer> customers = await _dataContext.Customers.ToListAsync();
                 return Ok(customers);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
-
         }
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<IActionResult> GetByIdAsync(int id)
         {
             try
@@ -57,7 +54,8 @@ namespace OsDsII.api.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status409Conflict)]
-
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Customer))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> CreateCustomerAsync(Customer customer)
         {
             try
@@ -65,16 +63,16 @@ namespace OsDsII.api.Controllers
                 Customer customerExists = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Email == customer.Email);
                 if (customerExists != null && !customerExists.Equals(customer))
                 {
-                    return BadRequest("Customer already exists");
+                    return Conflict("Customer already exists");
                 }
                 await _dataContext.Customers.AddAsync(customer);
                 await _dataContext.SaveChangesAsync();
 
-                return Ok(customer);
+                return Created(nameof(CustomersController), customer);
             }
             catch (Exception ex)
             {
-                return Created(nameof(CustomersController), customer);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
@@ -82,22 +80,21 @@ namespace OsDsII.api.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<IActionResult> DeleteCustomerAsync(int id)
         {
             try
             {
                 Customer customer = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Id == id);
+                _dataContext.Customers.Remove(customer);
                 if (customer is null)
                 {
                     return NotFound("Customer not found");
                 }
-                _dataContext.Customers.Remove(customer);
                 return NoContent();
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
@@ -105,7 +102,6 @@ namespace OsDsII.api.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<IActionResult> UpdateCustomerAsync(Customer customer)
         {
             try
