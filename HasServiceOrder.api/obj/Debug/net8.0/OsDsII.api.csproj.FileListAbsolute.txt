@@ -481,3 +481,14 @@ D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\
 D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.dll
 D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\refint\OsDsII.api.dll
 D:\1-arquivos\1-ETEC-DS\3DS\ds2\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.pdb
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.csproj.AssemblyReference.cache
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.GeneratedMSBuildEditorConfig.editorconfig
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.AssemblyInfoInputs.cache
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.AssemblyInfo.cs
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.csproj.CoreCompileInputs.cache
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.MvcApplicationPartsAssemblyInfo.cs
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.MvcApplicationPartsAssemblyInfo.cache
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.sourcelink.json
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.dll
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\refint\OsDsII.api.dll
+D:\BeatrizP_Nathalli\PAMII\Has-Service-Order\HasServiceOrder.api\obj\Debug\net8.0\OsDsII.api.pdb
