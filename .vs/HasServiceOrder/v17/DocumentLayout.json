@@ -3,32 +3,104 @@
   "WorkspaceRootPath": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\serviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\serviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\exceptions\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\exceptions\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\iserviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\iserviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\customerrepository\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\customerrepository\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\controllers\\serviceordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\controllers\\serviceordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\profilemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\profilemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\services\\icostumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\services\\icostumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\serviceorderrepository\\serviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\serviceorderrepository\\serviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\serviceorderrepository\\iserviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\serviceorderrepository\\iserviceorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\customerrepository\\icustomersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\customerrepository\\icustomersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\commentsrepository\\icommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\commentsrepository\\icommentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\repository\\commentsrepository\\commentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\repository\\commentsrepository\\commentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\models\\statusserviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\models\\statusserviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\models\\serviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\models\\serviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\http\\httperrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\http\\httperrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|d:\\1-arquivos\\1-etec-ds\\3ds\\ds2\\has-service-order\\hasserviceorder.api\\osdsii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8BDE49C-BE46-4786-9D5C-C30D94EAF17C}|HasServiceOrder.api\\OsDsII.api.csproj|solutionrelative:hasserviceorder.api\\osdsii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +118,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Dtos\\CustomerDto.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Dtos\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:35:25.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CustomerRepository\\CustomersRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\CustomerRepository\\CustomersRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CustomerRepository\\CustomersRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\CustomerRepository\\CustomersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:04:03.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Program.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Program.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Program.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T21:32:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CommentController.cs",
               "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "HasServiceOrder.api\\Controllers\\CommentController.cs",
               "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CommentController.cs",
               "RelativeToolTip": "HasServiceOrder.api\\Controllers\\CommentController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAE0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T21:38:25.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\data\\DataContext.cs",
-              "RelativeDocumentMoniker": "HasServiceOrder.api\\data\\DataContext.cs",
-              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\data\\DataContext.cs",
-              "RelativeToolTip": "HasServiceOrder.api\\data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T21:32:59.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IServiceOrderRepository.cs",
-              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\IServiceOrderRepository.cs",
-              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\IServiceOrderRepository.cs",
-              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\IServiceOrderRepository.cs",
-              "RelativeToolTip": "HasServiceOrder.api\\Repository\\IServiceOrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T21:32:59.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceOrderRepository.cs",
-              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository.cs",
-              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\ServiceOrderRepository.cs",
-              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository.cs",
-              "RelativeToolTip": "HasServiceOrder.api\\Repository\\ServiceOrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Title": "BaseException.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Exceptions\\BaseException.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Exceptions\\BaseException.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Exceptions\\BaseException.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Exceptions\\BaseException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T21:32:59.673Z",
+              "WhenOpened": "2024-04-28T20:53:33.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "HasServiceOrder.api\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "HasServiceOrder.api\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAowHsAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "CreateCustomerDto.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Dtos\\CreateCustomerDto.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Dtos\\CreateCustomerDto.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Dtos\\CreateCustomerDto.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Dtos\\CreateCustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T21:38:03.405Z",
+              "WhenOpened": "2024-04-28T20:35:10.459Z",
               "EditorCaption": ""
             },
             {
@@ -117,22 +202,243 @@
               "RelativeDocumentMoniker": "HasServiceOrder.api\\Controllers\\ServiceOrderController.cs",
               "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\ServiceOrderController.cs",
               "RelativeToolTip": "HasServiceOrder.api\\Controllers\\ServiceOrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T21:32:59.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Program.cs",
-              "RelativeDocumentMoniker": "HasServiceOrder.api\\Program.cs",
-              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Program.cs",
-              "RelativeToolTip": "HasServiceOrder.api\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAiAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProfileMapping.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\ProfileMapping.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\ProfileMapping.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\ProfileMapping.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\ProfileMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T21:32:59.669Z"
+              "WhenOpened": "2024-04-28T20:32:22.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\data\\DataContext.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\data\\DataContext.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\data\\DataContext.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T21:32:59.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICostumerService.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Services\\ICostumerService.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Services\\ICostumerService.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Services\\ICostumerService.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Services\\ICostumerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:36:00.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceOrderRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository\\ServiceOrderRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\ServiceOrderRepository\\ServiceOrderRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository\\ServiceOrderRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\ServiceOrderRepository\\ServiceOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T21:32:59.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServiceOrderRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository\\IServiceOrderRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\ServiceOrderRepository\\IServiceOrderRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\ServiceOrderRepository\\IServiceOrderRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\ServiceOrderRepository\\IServiceOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T21:32:59.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICustomersRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CustomerRepository\\ICustomersRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\CustomerRepository\\ICustomersRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CustomerRepository\\ICustomersRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\CustomerRepository\\ICustomersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:04:04.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Services\\CustomerService.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:23:23.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICommentsRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CommentsRepository\\ICommentsRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\CommentsRepository\\ICommentsRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CommentsRepository\\ICommentsRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\CommentsRepository\\ICommentsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:04:06.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommentsRepository.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CommentsRepository\\CommentsRepository.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Repository\\CommentsRepository\\CommentsRepository.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Repository\\CommentsRepository\\CommentsRepository.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Repository\\CommentsRepository\\CommentsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:02:07.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatusServiceOrder.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\StatusServiceOrder.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Models\\StatusServiceOrder.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\StatusServiceOrder.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Models\\StatusServiceOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:00:43.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceOrder.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\ServiceOrder.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Models\\ServiceOrder.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\ServiceOrder.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Models\\ServiceOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:00:45.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Models\\Customer.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\Customer.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:00:33.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Models\\Comment.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Models\\Comment.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:59:57.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HttpErrorResponse.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Http\\HttpErrorResponse.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Http\\HttpErrorResponse.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Http\\HttpErrorResponse.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Http\\HttpErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:56:00.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Exceptions\\ConflictException.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Exceptions\\ConflictException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T20:54:55.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "HasServiceOrder.api\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T21:38:03.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HasServiceOrder.api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T21:01:14.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OsDsII.api.csproj",
+              "DocumentMoniker": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\OsDsII.api.csproj",
+              "RelativeDocumentMoniker": "HasServiceOrder.api\\OsDsII.api.csproj",
+              "ToolTip": "D:\\1-arquivos\\1-ETEC-DS\\3DS\\ds2\\Has-Service-Order\\HasServiceOrder.api\\OsDsII.api.csproj",
+              "RelativeToolTip": "HasServiceOrder.api\\OsDsII.api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T20:31:43.993Z"
             }
           ]
         }

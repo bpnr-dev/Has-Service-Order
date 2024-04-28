@@ -2,14 +2,11 @@
 using OsDsII.api.Data;
 using OsDsII.api.Models;
 
-
-namespace OsDsII.api.Repository
-
+namespace OsDsII.api.Repository.ServiceOrderRepository
 {
     public sealed class ServiceOrderRepository : IServiceOrderRepository
     {
         // DI DATA CONTEXT
-
         private readonly DataContext _dataContext;
 
         public ServiceOrderRepository(DataContext dataContext)
@@ -43,6 +40,21 @@ namespace OsDsII.api.Repository
         {
             _dataContext.ServiceOrders.Update(serviceOrder);
             await _dataContext.SaveChangesAsync();
+        }
+
+        public async Task<ServiceOrder> GetServiceOrderWithComments(int serviceOrderId)
+        {
+            return await _dataContext.ServiceOrders
+                .Include(c => c.Customer)
+                .Include(c => c.Comments)
+                .FirstOrDefaultAsync(s => s.Id == serviceOrderId);
+        }
+
+        public async Task<ServiceOrder> GetServiceOrderFromUser(int serviceOrderId)
+        {
+            return await _dataContext.ServiceOrders
+                 .Include(c => c.Customer)
+                 .FirstOrDefaultAsync(s => serviceOrderId == s.Id);
         }
 
     }

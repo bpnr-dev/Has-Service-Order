@@ -1,8 +1,13 @@
-using Microsoft.AspNetCore.Http.HttpResults;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OsDsII.api.Data;
+using OsDsII.api.Dtos;
+using OsDsII.api.Exceptions;
 using OsDsII.api.Models;
+using OsDsII.api.Repository.CustomersRepository;
+using OsDsII.api.Services;
+using OsDsII.api.Services.Customers;
 
 namespace OsDsII.api.Controllers
 {
@@ -10,10 +15,16 @@ namespace OsDsII.api.Controllers
     [Route("[controller]")]
     public class CustomersController : ControllerBase
     {
-        private readonly DataContext _dataContext;
-        public CustomersController(DataContext dataContext)
+        //private readonly DataContext _dataContext;
+        private readonly ICustomersRepository _customersRepository;
+        private readonly IMapper _mapper;
+        private readonly ICustomersService _customersService;
+
+        public CustomersController(ICustomersRepository customersRepository, IMapper mapper, ICustomersService customersService)
         {
-            _dataContext = dataContext;
+            _customersRepository = customersRepository;
+            _mapper = mapper;
+            _customersService = customersService;
         }
 
         [HttpGet]
@@ -23,23 +34,25 @@ namespace OsDsII.api.Controllers
         {
             try
             {
-                List<Customer> customers = await _dataContext.Customers.ToListAsync();
+                IEnumerable<Customer> customers = await _customersRepository.GetAllAsync();
                 return Ok(customers);
             }
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
+
         }
 
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetByIdAsync(int id)
         {
             try
             {
-                Customer customer = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Id == id);
+                Customer customer = await _customersRepository.GetByIdAsync(id);
                 if (customer is null)
                 {
                     return NotFound("Customer not found");
@@ -53,26 +66,20 @@ namespace OsDsII.api.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status409Conflict)]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Customer))]
+        [ProducesResponseType(StatusCodes.Status409Conflict)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> CreateCustomerAsync(Customer customer)
+        public async Task<IActionResult> CreateCustomerAsync(CreateCustomerDto customer)
         {
             try
             {
-                Customer customerExists = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Email == customer.Email);
-                if (customerExists != null && !customerExists.Equals(customer))
-                {
-                    return Conflict("Customer already exists");
-                }
-                await _dataContext.Customers.AddAsync(customer);
-                await _dataContext.SaveChangesAsync();
+                await _customersService.CreateAsync(customer); // assíncrono porém void
 
                 return Created(nameof(CustomersController), customer);
             }
-            catch (Exception ex)
+            catch (BaseException ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return ex.GetResponse();
             }
         }
 
@@ -84,12 +91,12 @@ namespace OsDsII.api.Controllers
         {
             try
             {
-                Customer customer = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Id == id);
-                _dataContext.Customers.Remove(customer);
+                Customer customer = await _customersRepository.GetByIdAsync(id);
                 if (customer is null)
                 {
                     return NotFound("Customer not found");
                 }
+                await _customersRepository.DeleteCustomer(customer);
                 return NoContent();
             }
             catch (Exception ex)
@@ -106,13 +113,12 @@ namespace OsDsII.api.Controllers
         {
             try
             {
-                Customer currentCustomer = await _dataContext.Customers.FirstOrDefaultAsync(c => c.Id == customer.Id);
+                Customer currentCustomer = await _customersRepository.GetByIdAsync(customer.Id);
                 if (customer is null)
                 {
                     return NotFound("Customer not found");
                 }
-                _dataContext.Customers.Update(customer);
-                await _dataContext.SaveChangesAsync();
+                await _customersRepository.UpdateCustomerAsync(customer);
                 return NoContent();
             }
             catch (Exception ex)

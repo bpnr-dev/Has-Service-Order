@@ -1,27 +1,28 @@
-using Microsoft.AspNetCore.Http.HttpResults;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OsDsII.api.Data;
 using OsDsII.api.Models;
-using OsDsII.api.Repository;
+using OsDsII.api.Repository.CustomersRepository;
+using OsDsII.api.Repository.ServiceOrderRepository;
 
 namespace OsDsII.api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ServiceOrdersController : ControllerBase
+    public sealed class ServiceOrdersController : ControllerBase
     {
-        //IOC Inverção de controle -> Firma o contrato da interface com o repository
-        private readonly IServiceOrderRepository _serviceOrderRepository;
-        public ServiceOrdersController(IServiceOrderRepository serviceOrderRepository)
+        private readonly IServiceOrderRepository _serviceOrderRepository; // IOC (INVERSION OF CONTROL)
+        private readonly ICustomersRepository _customersRepository;
+        public ServiceOrdersController(
+            IServiceOrderRepository serviceOrderRepository,
+            ICustomersRepository customersRepository
+            )
         {
             _serviceOrderRepository = serviceOrderRepository;
+            _customersRepository = customersRepository;
         }
 
-
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAllServiceOrderAsync()
         {
             try
@@ -31,14 +32,11 @@ namespace OsDsII.api.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
 
         [HttpGet("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetServiceOrderById(int id)
         {
             try
@@ -46,50 +44,44 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _serviceOrderRepository.GetByIdAsync(id);
                 if (serviceOrder is null)
                 {
-                    return NotFound("Service order not found");
+                    throw new Exception("Service order not found");
                 }
                 return Ok(serviceOrder);
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> CreateServiceOrderAsync(ServiceOrder serviceOrder)
         {
             try
             {
                 if (serviceOrder is null)
                 {
-                    return NotFound("Service order cannot be null");
+                    throw new Exception("Service order cannot be null");
                 }
 
-                Customer customer = await _dataContext.Customers.FirstOrDefaultAsync(c => serviceOrder.Customer.Id == c.Id);
+                Customer customer = await _customersRepository.GetByIdAsync(serviceOrder.Customer.Id);
 
                 if (customer is null)
                 {
-                    return NotFound("Customer not found");
+                    throw new Exception("Customer not found");
                 }
 
                 await _serviceOrderRepository.AddAsync(serviceOrder);
-                return Created(nameof(ServiceOrdersController), serviceOrder);
+                return Created("CreateServiceOrderAsync", serviceOrder);
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
 
         }
 
         [HttpPut("{id}/status/finish")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> FinishServiceOrderAsync(int id)
         {
             try
@@ -97,7 +89,7 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _serviceOrderRepository.GetByIdAsync(id);
                 if (serviceOrder is null)
                 {
-                    return NotFound("Service order cannot be null");
+                    throw new Exception("Service order cannot be null");
                 }
 
                 serviceOrder.FinishOS();
@@ -107,14 +99,11 @@ namespace OsDsII.api.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
 
         [HttpPut("{id}/status/cancel")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> CancelServiceOrder(int id)
         {
             try
@@ -122,16 +111,17 @@ namespace OsDsII.api.Controllers
                 ServiceOrder serviceOrder = await _serviceOrderRepository.GetByIdAsync(id);
                 if (serviceOrder is null)
                 {
-                    return NotFound("Service order cannot be null");
+                    throw new Exception("Service order cannot be null");
                 }
 
                 serviceOrder.Cancel();
-                _serviceOrderRepository.CancelAsync(serviceOrder);
+                await _serviceOrderRepository.CancelAsync(serviceOrder);
+
                 return NoContent();
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
     }

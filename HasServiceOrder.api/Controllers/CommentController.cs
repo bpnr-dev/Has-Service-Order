@@ -1,8 +1,10 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OsDsII.api.Data;
 using OsDsII.api.Models;
+using OsDsII.api.Repository.CommentsRepository;
+using OsDsII.api.Repository.ServiceOrderRepository;
+
 
 namespace OsDsII.api.Controllers
 {
@@ -11,68 +13,56 @@ namespace OsDsII.api.Controllers
     [Route("ServiceOrders/{id}/comment")]
     public class CommentController : ControllerBase
     {
-        private readonly DataContext _context;
+        //private readonly DataContext _context;
+        private readonly IServiceOrderRepository _serviceOrderRepository; // IOC (INVERSION OF CONTROL)
+        private readonly ICommentsRepository _commentsRepository;
 
-        public CommentController(DataContext context)
+
+        public CommentController(IServiceOrderRepository serviceOrderRepository, ICommentsRepository commentsRepository)
         {
-            _context = context;
+            _serviceOrderRepository = serviceOrderRepository;
+            _commentsRepository = commentsRepository;
         }
 
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetCommentsAsync(int serviceOrderId)
         {
-            try
-            {
-                ServiceOrder serviceOrderWithComments = await _context.ServiceOrders
-                .Include(c => c.Customer)
-                .Include(c => c.Comments)
-                .FirstOrDefaultAsync(s => s.Id == serviceOrderId);
-                return Ok(serviceOrderWithComments);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-            }
+            ServiceOrder serviceOrderWithComments = await _serviceOrderRepository.GetServiceOrderWithComments(serviceOrderId);
+            return Ok(serviceOrderWithComments);
+
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> AddComment(int serviceOrderId, Comment comment)
         {
             try
             {
-                var os = await _context.ServiceOrders.Include(c => c.Customer).FirstOrDefaultAsync(s => serviceOrderId == s.Id);
+                ServiceOrder os = await _serviceOrderRepository.GetServiceOrderFromUser(serviceOrderId);
 
                 if (os == null)
                 {
-                    return NotFound("ServiceOrder not found.");
+                    throw new Exception("Service Order not found.");
                 }
 
                 Comment commentExists = HandleCommentObject(serviceOrderId, comment.Description);
 
-                await _context.Comments.AddAsync(commentExists); // This line adds the comment to the context
-                await _context.SaveChangesAsync();
+                await _commentsRepository.AddCommentAsync(commentExists); // This line adds the comment to the context
 
                 return Ok(commentExists);
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return BadRequest(ex.Message);
             }
         }
 
         private Comment HandleCommentObject(int id, string description)
         {
-            Comment comment = new Comment
+            return new Comment
             {
                 Description = description,
                 ServiceOrderId = id
             };
-            return comment;
         }
     }
 }
