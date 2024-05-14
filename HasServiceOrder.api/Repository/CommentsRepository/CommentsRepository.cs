@@ -15,7 +15,7 @@ namespace OsDsII.api.Repository.CommentsRepository
 
         public async Task AddCommentAsync(Comment comment)
         {
-            await _dataContext.Comments.AddAsync(comment);
+            await _dataContext.Comments.AddAsync(comment); // This line adds the comment to the context
             await _dataContext.SaveChangesAsync();
         }
     }

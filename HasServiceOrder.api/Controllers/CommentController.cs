@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using OsDsII.api.Data;
 using OsDsII.api.Models;
 using OsDsII.api.Repository.CommentsRepository;
 using OsDsII.api.Repository.ServiceOrderRepository;
@@ -8,7 +6,6 @@ using OsDsII.api.Repository.ServiceOrderRepository;
 
 namespace OsDsII.api.Controllers
 {
-
     [ApiController]
     [Route("ServiceOrders/{id}/comment")]
     public class CommentController : ControllerBase
