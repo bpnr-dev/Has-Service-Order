@@ -1,6 +1,6 @@
 ﻿using OsDsII.api.Dtos;
 
-namespace OsDsII.api.Services.Customers
+namespace OsDsII.api.Services.CustomerService
 {
     public interface ICustomersService
     {

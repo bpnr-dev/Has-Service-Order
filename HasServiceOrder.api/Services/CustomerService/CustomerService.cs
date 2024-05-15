@@ -4,7 +4,7 @@ using OsDsII.api.Exceptions;
 using OsDsII.api.Models;
 using OsDsII.api.Repository.CustomersRepository;
 
-namespace OsDsII.api.Services.Customers
+namespace OsDsII.api.Services.CustomerService
 {
     public sealed class CustomersService : ICustomersService
     {

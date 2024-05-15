@@ -4,7 +4,7 @@ using OsDsII.api.Dtos;
 using OsDsII.api.Exceptions;
 using OsDsII.api.Models;
 using OsDsII.api.Repository.CustomersRepository;
-using OsDsII.api.Services.Customers;
+using OsDsII.api.Services.CustomerService;
 
 namespace OsDsII.api.Controllers
 {

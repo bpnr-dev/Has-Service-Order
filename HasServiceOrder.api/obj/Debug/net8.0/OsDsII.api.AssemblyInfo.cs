@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OsDsII.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c23db4adeab69690c1cecbc1303dc89691e75d2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OsDsII.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OsDsII.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

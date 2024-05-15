@@ -3,7 +3,7 @@ using OsDsII.api.Data;
 using OsDsII.api.Repository.CommentsRepository;
 using OsDsII.api.Repository.CustomersRepository;
 using OsDsII.api.Repository.ServiceOrderRepository;
-using OsDsII.api.Services.Customers;
+using OsDsII.api.Services.CustomerService;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
